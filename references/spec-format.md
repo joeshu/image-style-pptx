@@ -34,6 +34,12 @@
 
 使用 `path`（相对 spec 所在目录或绝对路径）、`alt` 和 `fit`（contain/cover）。支持 SVG、PNG、JPEG。图标应是独立元素，保留许可证。禁止把整页截图冒充可编辑重建。
 
+## 统一矢量图标 `type: icon`
+
+使用 `icon` 指定 `assets/icons/catalog.json` 中的键，提供 `name/x/y/w/h`，宽高必须相等。`color` 为可选 `#RRGGBB`；颜色回退到页/根 `iconColor` 和默认蓝。`group` 指定同页尺寸及颜色必须一致的业务组。不要提供 `path`、`svg`、`fill`、`stroke` 或 `strokeWidth`，避免绕过统一规范。
+
+例如：`{"type":"icon","name":"speed","icon":"gauge","group":"benefits","x":240,"y":160,"w":40,"h":40}`。图标由随包 SVG 直接嵌入，保持比例；检查器区分 `vectorIcons` 与 `rasterScope`，并核对输出图片对象是否包含 SVG 引用。详见 [图标规范](icon-style.md)。
+
 ## 原生表格 `type: table`
 
 使用 `values` 二维数组、`columnWidths` 和 `rowHeights`。列宽之和为 `w`，行高之和为 `h`。每格可以是字符串或 `{"runs":[...],"bold":true,"color":"#...","fontSize":14,"fill":"#..."}`。表格级别可以设置 `fontSize`、`color`、`fill`、`stroke`、`strokeWidth`、`align`。`rowFills` 可按行设置填色。每个单元格保留原生文本，可在 PowerPoint 中编辑。

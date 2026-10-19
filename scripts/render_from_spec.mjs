@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
 import { pathToFileURL } from 'node:url';
+import { validateIconConfig, loadIconAsset, DEFAULT_ICON_COLOR } from './icon_assets.mjs';
 
 function parseArgs(argv) {
   const args = {};
@@ -43,14 +44,25 @@ export function validateSpec(spec) {
   for (const [i, slide] of spec.slides.entries()) {
     if (!Array.isArray(slide.elements)) throw new Error(`No elements on slide ${i + 1}`);
     const names = new Set();
+    const iconGroups = new Map();
     for (const e of slide.elements) {
       if (!e.name || names.has(e.name)) throw new Error(`Missing/duplicate name: ${e.name}`);
       names.add(e.name);
-      if (!['shape', 'text', 'image', 'table'].includes(e.type)) throw new Error(`Unsupported type: ${e.type}`);
+      if (!['shape', 'text', 'image', 'table', 'icon'].includes(e.type)) throw new Error(`Unsupported type: ${e.type}`);
       for (const prop of ['x', 'y', 'w', 'h']) requireNumber(e[prop], `${e.name}.${prop}`, prop === 'w' || prop === 'h');
       if (e.x < -0.01 || e.y < -0.01 || e.x + e.w > spec.width + 0.01 || e.y + e.h > spec.height + 0.01)
         throw new Error(`Element outside slide: ${e.name}`);
       if (e.type === 'text') validateText(e, e.name);
+      if (e.type === 'icon') {
+        validateIconConfig(e);
+        const color = e.color ?? slide.iconColor ?? spec.iconColor ?? DEFAULT_ICON_COLOR;
+        if (!/^#[0-9a-f]{6}$/i.test(color)) throw new Error('Icon color must be #RRGGBB');
+        if (e.group) {
+          const style = JSON.stringify([e.w, e.h, color.toUpperCase()]);
+          if (iconGroups.has(e.group) && iconGroups.get(e.group) !== style) throw new Error(`Inconsistent icon size/color in group: ${e.group}`);
+          iconGroups.set(e.group, style);
+        }
+      }
       if (e.type === 'table') {
         if (!Array.isArray(e.values) || !e.values.length || !Array.isArray(e.values[0]) || !e.values[0].length)
           throw new Error(`Invalid table: ${e.name}`);
@@ -145,8 +157,15 @@ export async function renderSpec(specPath, output) {
   validateSpec(spec);
   const plan = plannedOutputs(spec, output);
   const imageBytes = new Map();
+  const iconSvgs = new Map();
   const inputPaths = new Set([path.resolve(specPath)]);
   for (const slide of spec.slides) for (const e of slide.elements) {
+    if (e.type === 'icon') {
+      const asset = await loadIconAsset(e.icon, e.color ?? slide.iconColor ?? spec.iconColor ?? DEFAULT_ICON_COLOR);
+      inputPaths.add(asset.sourcePath);
+      iconSvgs.set(e, asset.svg);
+      continue;
+    }
     if (e.type !== 'image') continue;
     const p = path.resolve(path.dirname(specPath), e.path);
     if (!['.svg', '.png', '.jpg', '.jpeg'].includes(path.extname(p).toLowerCase())) throw new Error(`Unsupported image: ${p}`);
@@ -190,6 +209,8 @@ export async function renderSpec(specPath, output) {
         const shape = slide.shapes.add({ geometry: 'textbox', name: e.name, position, fill: 'none', line: { style: 'solid', fill: 'none', width: 0 } });
         shape.text.style = textStyle(e, font);
         shape.text = toNativeText(e, e.fontFamily ?? font);
+      } else if (e.type === 'icon') {
+        slide.images.add({ svg: iconSvgs.get(e), alt: e.alt ?? `统一矢量图标：${e.icon}`, fit: 'contain', position });
       } else if (e.type === 'image') {
         const imagePath = path.resolve(path.dirname(specPath), e.path);
         const bytes = imageBytes.get(imagePath);

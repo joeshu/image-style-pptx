@@ -106,7 +106,7 @@ def check(spec, pptx_path):
         for i, (ss, name) in enumerate(zip(spec['slides'], slides), start=1):
             root = ET.fromstring(z.read(name))
             actual = ''.join(t.text or '' for t in root.findall('.//a:t', NS))
-            expected, tables, images, raster_scope = [], 0, 0, []
+            expected, tables, images, raster_scope, vector_icons, picture_specs = [], 0, 0, [], [], []
             for e in ss['elements']:
                 if e['type'] == 'text':
                     expected.append(content_text(e))
@@ -115,7 +115,12 @@ def check(spec, pptx_path):
                     expected.extend(content_text(v) for row in e['values'] for v in row)
                 elif e['type'] == 'image':
                     images += 1
+                    picture_specs.append(e)
                     raster_scope.append({'name': e['name'], 'role': e.get('sourceRole', 'unspecified'), 'editableText': False})
+                elif e['type'] == 'icon':
+                    images += 1
+                    picture_specs.append(e)
+                    vector_icons.append({'name': e['name'], 'icon': e['icon'], 'role': 'vector-icon'})
             if normalize(''.join(expected)) != normalize(actual):
                 findings.append({'slide': i, 'kind': 'spec-native-text-mismatch'})
             for token in ss.get('requiredTokens', []):
@@ -134,8 +139,12 @@ def check(spec, pptx_path):
             if counts['tables'] != tables or counts['images'] != images:
                 findings.append({'slide': i, 'kind': 'native-object-count-mismatch', 'expectedTables': tables,
                                  'expectedImages': images, 'actual': counts})
+            for e, picture in zip(picture_specs, root.findall('.//p:pic', NS)):
+                if e['type'] == 'icon' and picture.find('.//{http://schemas.microsoft.com/office/drawing/2016/SVG/main}svgBlip') is None:
+                    findings.append({'slide': i, 'kind': 'vector-icon-rasterized', 'name': e['name']})
             reports.append({'slide': i, 'nativeTextCharacters': len(actual), 'objectCounts': counts,
                             'rasterScope': raster_scope, 'sourceBlockCount': len(ss.get('sourceText', [])),
+                            'vectorIcons': vector_icons,
                             'nativeTextContractCount': len(ss.get('nativeTextContracts', [])),
                             'formatContractCount': len(ss.get('formatContracts', [])), 'uncertainties': uncertainties})
     return {'passed': not findings, 'findings': findings, 'warnings': warnings, 'slides': reports,

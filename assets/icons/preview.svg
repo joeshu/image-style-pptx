@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840">
+<rect width="1000" height="840" fill="#F7FAFF"/>
+<text x="32" y="38" font-family="Noto Sans CJK SC" font-size="22" fill="#123466">统一线性 SVG 图标 · Lucide</text>
+<svg x="80" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" /><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" /><path d="M18 9h1.5a1 1 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6 9H4.5a1 1 0 0 1 0-5H6" /></svg>
+<text x="104" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">营销成果</text>
+<text x="104" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">trophy</text>
+<svg x="240" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>
+<text x="264" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">重点做法</text>
+<text x="264" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">target</text>
+<svg x="400" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></svg>
+<text x="424" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">经典案例</text>
+<text x="424" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">star</text>
+<svg x="560" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /><path d="M12 11h4" /><path d="M12 16h4" /><path d="M8 11h.01" /><path d="M8 16h.01" /></svg>
+<text x="584" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">营销总结</text>
+<text x="584" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">clipboard-list</text>
+<svg x="720" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5" /><path d="M20 21a8 8 0 0 0-16 0" /></svg>
+<text x="744" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">用户信息</text>
+<text x="744" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">user-round</text>
+<svg x="880" y="82" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M16 16s-1.5-2-4-2-4 2-4 2" /><line x1="9" x2="9.01" y1="9" y2="9" /><line x1="15" x2="15.01" y1="9" y2="9" /></svg>
+<text x="904" y="158" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">用户痛点</text>
+<text x="904" y="181" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">frown</text>
+<svg x="80" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /><path d="M8 12h.01" /><path d="M12 12h.01" /><path d="M16 12h.01" /></svg>
+<text x="104" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">核心话术</text>
+<text x="104" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">message-circle-more</text>
+<svg x="240" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14v4" /><path d="M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" /><path d="M8 14h8" /><rect x="8" y="10" width="8" height="8" rx="1" /></svg>
+<text x="264" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">副卡</text>
+<text x="264" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">card-sim</text>
+<svg x="400" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2" /><path d="M12 18h.01" /></svg>
+<text x="424" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">流量</text>
+<text x="424" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">smartphone</text>
+<svg x="560" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2a9 9 0 0 1 9 9" /><path d="M13 6a5 5 0 0 1 5 5" /><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg>
+<text x="584" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">流量与通话</text>
+<text x="584" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">phone-call</text>
+<svg x="720" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4" /><path d="M3.34 19a10 10 0 1 1 17.32 0" /></svg>
+<text x="744" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">宽带提速</text>
+<text x="744" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">gauge</text>
+<svg x="880" y="228" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="8" x="2" y="14" rx="2" /><path d="M6.01 18H6" /><path d="M10.01 18H10" /><path d="M15 10v4" /><path d="M17.84 7.17a4 4 0 0 0-5.66 0" /><path d="M20.66 4.34a8 8 0 0 0-11.31 0" /></svg>
+<text x="904" y="304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">设备升级</text>
+<text x="904" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">router</text>
+<svg x="80" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h.01" /><path d="M2 8.82a15 15 0 0 1 20 0" /><path d="M5 12.859a10 10 0 0 1 14 0" /><path d="M8.5 16.429a5 5 0 0 1 7 0" /></svg>
+<text x="104" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">无线网络</text>
+<text x="104" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">wifi</text>
+<svg x="240" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg>
+<text x="264" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">家庭</text>
+<text x="264" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">house</text>
+<svg x="400" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1" /><rect x="2" y="16" width="6" height="6" rx="1" /><rect x="9" y="2" width="6" height="6" rx="1" /><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" /><path d="M12 12V8" /></svg>
+<text x="424" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">组网</text>
+<text x="424" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">network</text>
+<svg x="560" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" /><line x1="8" x2="16" y1="6" y2="6" /><line x1="16" x2="16" y1="14" y2="18" /><path d="M16 10h.01" /><path d="M12 10h.01" /><path d="M8 10h.01" /><path d="M12 14h.01" /><path d="M8 14h.01" /><path d="M12 18h.01" /><path d="M8 18h.01" /></svg>
+<text x="584" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">积分计算</text>
+<text x="584" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">calculator</text>
+<svg x="720" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z" /><path d="M21.21 15.89A10 10 0 1 1 8 2.83" /></svg>
+<text x="744" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">渠道系数</text>
+<text x="744" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">chart-pie</text>
+<svg x="880" y="374" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5H3" /><path d="M12 19H3" /><path d="M14 3v4" /><path d="M16 17v4" /><path d="M21 12h-9" /><path d="M21 19h-5" /><path d="M21 5h-7" /><path d="M8 10v4" /><path d="M8 12H3" /></svg>
+<text x="904" y="450" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">调节系数</text>
+<text x="904" y="473" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">sliders-horizontal</text>
+<svg x="80" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14" /><path d="M20 11v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8" /><path d="M7.5 7a1 1 0 0 1 0-5A4.8 8 0 0 1 12 7a4.8 8 0 0 1 4.5-5 1 1 0 0 1 0 5" /><rect x="3" y="7" width="18" height="4" rx="1" /></svg>
+<text x="104" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">赠送权益</text>
+<text x="104" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">gift</text>
+<svg x="240" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+<text x="264" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">勾选</text>
+<text x="264" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">check</text>
+<svg x="400" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
+<text x="424" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">已完成</text>
+<text x="424" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">circle-check</text>
+<svg x="560" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 21a8 8 0 0 0-16 0" /><circle cx="10" cy="8" r="5" /><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" /></svg>
+<text x="584" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">目标客群</text>
+<text x="584" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">users-round</text>
+<svg x="720" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" /><path d="M21 16v2a4 4 0 0 1-4 4h-5" /></svg>
+<text x="744" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">服务支持</text>
+<text x="744" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">headset</text>
+<svg x="880" y="520" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /><path d="m9 16 2 2 4-4" /></svg>
+<text x="904" y="596" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">活动安排</text>
+<text x="904" y="619" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">calendar-check</text>
+<svg x="80" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg>
+<text x="104" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">服务保障</text>
+<text x="104" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">shield-check</text>
+<svg x="240" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12h4" /><path d="M10 8h4" /><path d="M14 21v-3a2 2 0 0 0-4 0v3" /><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" /><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /></svg>
+<text x="264" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">网点</text>
+<text x="264" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">building-2</text>
+<svg x="400" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17-5-5 5-5" /><path d="m18 17-5-5 5-5" /></svg>
+<text x="424" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">向左</text>
+<text x="424" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">chevrons-left</text>
+<svg x="560" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 17 5-5-5-5" /><path d="m13 17 5-5-5-5" /></svg>
+<text x="584" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">向右</text>
+<text x="584" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">chevrons-right</text>
+<svg x="720" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 16H8" /><path d="M14 8H8" /><path d="M16 12H8" /><path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /></svg>
+<text x="744" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">安装费用</text>
+<text x="744" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">receipt-text</text>
+<svg x="880" y="666" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="M12 5v14" /></svg>
+<text x="904" y="742" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="16" fill="#123466">权益组合</text>
+<text x="904" y="765" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#63778F">plus</text>
+</svg>

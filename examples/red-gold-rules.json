@@ -141,15 +141,16 @@
           "radius": 15
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-clipboard-list-11",
-          "x": 47,
-          "y": 78,
+          "x": 47.0,
+          "y": 79.5,
           "w": 20,
-          "h": 23,
-          "path": "../assets/clipboard-list.svg",
+          "h": 20,
           "alt": "Lucide clipboard-list 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "clipboard-list",
+          "color": "#B40000"
         },
         {
           "type": "shape",
@@ -484,15 +485,16 @@
           "geometry": "rect"
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-chart-pie-39",
-          "x": 716,
-          "y": 77,
+          "x": 716.0,
+          "y": 77.0,
           "w": 24,
           "h": 24,
-          "path": "../assets/chart-pie.svg",
           "alt": "Lucide chart-pie 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "chart-pie",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",
@@ -568,15 +570,16 @@
           "geometry": "rect"
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-sliders-horizontal-46",
-          "x": 1028,
-          "y": 77,
+          "x": 1028.0,
+          "y": 77.0,
           "w": 24,
           "h": 24,
-          "path": "../assets/sliders-horizontal.svg",
           "alt": "Lucide sliders-horizontal 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "sliders-horizontal",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",
@@ -696,15 +699,16 @@
           "radius": 14
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-calculator-55",
-          "x": 678,
-          "y": 191,
+          "x": 678.0,
+          "y": 191.5,
           "w": 19,
-          "h": 20,
-          "path": "../assets/calculator.svg",
+          "h": 19,
           "alt": "Lucide calculator 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "calculator",
+          "color": "#B40000"
         },
         {
           "type": "text",
@@ -846,15 +850,16 @@
           "radius": 8
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-chevrons-left-66",
-          "x": 507,
-          "y": 375,
-          "w": 43,
+          "x": 516.5,
+          "y": 375.0,
+          "w": 24,
           "h": 24,
-          "path": "../assets/chevrons-left.svg",
           "alt": "Lucide chevrons-left 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "chevrons-left",
+          "color": "#FFFFFF"
         },
         {
           "type": "shape",
@@ -868,15 +873,16 @@
           "radius": 8
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-chevrons-right-67",
-          "x": 730,
-          "y": 375,
-          "w": 43,
+          "x": 739.5,
+          "y": 375.0,
+          "w": 24,
           "h": 24,
-          "path": "../assets/chevrons-right.svg",
           "alt": "Lucide chevrons-right 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "chevrons-right",
+          "color": "#FFFFFF"
         },
         {
           "type": "shape",
@@ -913,15 +919,16 @@
           "geometry": "rect"
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-house-73",
           "x": 141.5,
-          "y": 405,
+          "y": 405.0,
           "w": 25,
           "h": 25,
-          "path": "../assets/house.svg",
           "alt": "Lucide house 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "house",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",
@@ -1047,15 +1054,16 @@
           "geometry": "rect"
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-network-79",
           "x": 497.8,
-          "y": 405,
+          "y": 405.0,
           "w": 25,
           "h": 25,
-          "path": "../assets/network.svg",
           "alt": "Lucide network 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "network",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",
@@ -1181,15 +1189,16 @@
           "geometry": "rect"
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-card-sim-85",
           "x": 975.0,
-          "y": 405,
+          "y": 405.0,
           "w": 25,
           "h": 25,
-          "path": "../assets/card-sim.svg",
           "alt": "Lucide card-sim 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "card-sim",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",
@@ -1302,15 +1311,16 @@
           "strokeWidth": 1.5
         },
         {
-          "type": "image",
+          "type": "icon",
           "name": "icon-gift-90",
-          "x": 97,
-          "y": 573,
+          "x": 97.0,
+          "y": 573.0,
           "w": 30,
           "h": 30,
-          "path": "../assets/gift.svg",
           "alt": "Lucide gift 图标",
-          "fit": "contain"
+          "fit": "contain",
+          "icon": "gift",
+          "color": "#FFFFFF"
         },
         {
           "type": "text",

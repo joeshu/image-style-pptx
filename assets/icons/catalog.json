@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "family": "Lucide",
+  "sourceVersion": "1.8.0",
+  "sourceUrl": "https://lucide.dev",
+  "sourceRepository": "https://github.com/lucide-icons/lucide",
+  "license": "../LUCIDE-LICENSE.txt",
+  "style": {
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 2,
+    "linecap": "round",
+    "linejoin": "round",
+    "fill": "none",
+    "defaultColor": "#0B5BD3"
+  },
+  "icons": {
+    "trophy": {
+      "label": "营销成果",
+      "file": "trophy.svg",
+      "sha256": "fa19f1170068fd7c80fffa270f07dc6a8a41ce01c02b9e93a86d134def806d64"
+    },
+    "target": {
+      "label": "重点做法",
+      "file": "target.svg",
+      "sha256": "fff8fa2b026d720591c446a3ecc5d265b4a1fe29c425ff7f63f38a4940282da4"
+    },
+    "star": {
+      "label": "经典案例",
+      "file": "star.svg",
+      "sha256": "1d498dbd06cf9278f212476859e2b1dbad91626d33445bd73525ca6a0cb0f2a8"
+    },
+    "clipboard-list": {
+      "label": "营销总结",
+      "file": "clipboard-list.svg",
+      "sha256": "7d2d87239b04df8787dfa710b7d702ce593528d22222a951f055eea15668571c"
+    },
+    "user-round": {
+      "label": "用户信息",
+      "file": "user-round.svg",
+      "sha256": "f0e06481746ca644b87c3f096170617f8362af38f90c40409db7104318a78525"
+    },
+    "frown": {
+      "label": "用户痛点",
+      "file": "frown.svg",
+      "sha256": "96e00404a17d3b70f33d0d4a1a6ce82faf5cf7b81f979ec570ee3eaf763e91bc"
+    },
+    "message-circle-more": {
+      "label": "核心话术",
+      "file": "message-circle-more.svg",
+      "sha256": "9d680bd03ddaa3e7d09954ba189cb7342813f741d927057d1314efe9e1b42673"
+    },
+    "card-sim": {
+      "label": "副卡",
+      "file": "card-sim.svg",
+      "sha256": "e5a46d0346bf409b2c61df227372316f0b65265e46ef48ca7b2540d7da3b704e"
+    },
+    "smartphone": {
+      "label": "流量",
+      "file": "smartphone.svg",
+      "sha256": "a1a722e32e2c6ed7e27d318b1e2720732bbf6c861b159bbbd8569b3ed3a700e2"
+    },
+    "phone-call": {
+      "label": "流量与通话",
+      "file": "phone-call.svg",
+      "sha256": "e3cd92e21460fdb790a9bda54102c8e9904f9fb6b58e336ded56394576006271"
+    },
+    "gauge": {
+      "label": "宽带提速",
+      "file": "gauge.svg",
+      "sha256": "cc8569c6e7c8b1b673139608753391c9704e9c682f8cb2ad14e793347bb59068"
+    },
+    "router": {
+      "label": "设备升级",
+      "file": "router.svg",
+      "sha256": "7866a403b4e81250cf946a00a65ca3a1e5729f9fab4ffee41beab068f203876b"
+    },
+    "wifi": {
+      "label": "无线网络",
+      "file": "wifi.svg",
+      "sha256": "88c96573b2275a573340b5bad25b993a85566763267517f07b7353fa6a98be52"
+    },
+    "house": {
+      "label": "家庭",
+      "file": "house.svg",
+      "sha256": "9db7bac85cc3a1fc00837032baf34d6b1899be78174f247b7405502b23805647"
+    },
+    "network": {
+      "label": "组网",
+      "file": "network.svg",
+      "sha256": "c9c3335750919436bd6cd1967ac7768fb46944ca13d5bb7f4082694f7710a6a7"
+    },
+    "calculator": {
+      "label": "积分计算",
+      "file": "calculator.svg",
+      "sha256": "531022c5aeae6047ae398e23252e67afafbffc16c1fc522c026d81dad28b6482"
+    },
+    "chart-pie": {
+      "label": "渠道系数",
+      "file": "chart-pie.svg",
+      "sha256": "224bdcc59ddebd96a3e46c9d6a8e8105539739e37b1aee65cb585724756ff342"
+    },
+    "sliders-horizontal": {
+      "label": "调节系数",
+      "file": "sliders-horizontal.svg",
+      "sha256": "a776592b5c30a8c67aeba6e4d95bda9adfe3bc5ebcf05e66200b9e300acb32ef"
+    },
+    "gift": {
+      "label": "赠送权益",
+      "file": "gift.svg",
+      "sha256": "26d90898d33b21d475be06938d937885a22d7983ad4c4169191f52f1b02ce973"
+    },
+    "check": {
+      "label": "勾选",
+      "file": "check.svg",
+      "sha256": "54a40f30cad8d3663c87ba6543fda264b20935c04e6be1d6e5b2057203b8b2cc"
+    },
+    "circle-check": {
+      "label": "已完成",
+      "file": "circle-check.svg",
+      "sha256": "1036522dfddaebc19cc6dbae5dd3e87ce3ed6876adf35552a45e9b03729f1c05"
+    },
+    "users-round": {
+      "label": "目标客群",
+      "file": "users-round.svg",
+      "sha256": "047e0487b897698223a4660f0493646c5c544b4886a75bf4b458196234c0a158"
+    },
+    "headset": {
+      "label": "服务支持",
+      "file": "headset.svg",
+      "sha256": "813e7f60f1ab4281afe743e5fd5986e4cc4a178661f1b09ab458cff3ce03b751"
+    },
+    "calendar-check": {
+      "label": "活动安排",
+      "file": "calendar-check.svg",
+      "sha256": "bb60b71fb289766a6da851793e3085f446a898e81a5de8a585e74eef7813a4bb"
+    },
+    "shield-check": {
+      "label": "服务保障",
+      "file": "shield-check.svg",
+      "sha256": "ea9ec88d587af019fff50d413077d3766ad69acea302eff967ab78cf56972f06"
+    },
+    "building-2": {
+      "label": "网点",
+      "file": "building-2.svg",
+      "sha256": "f9ab86e68e34afb78d86983f8193195980bbc93b44cdebd4aab69ce61ae1004b"
+    },
+    "chevrons-left": {
+      "label": "向左",
+      "file": "chevrons-left.svg",
+      "sha256": "7697aa8ec66277b3a7c35d8e6220b991cc58f6ca73f923148b0141b621e18261"
+    },
+    "chevrons-right": {
+      "label": "向右",
+      "file": "chevrons-right.svg",
+      "sha256": "493804d1753378c450a98b0acb6a037972f2837277f31db23bcd78d94470ca6d"
+    },
+    "receipt-text": {
+      "label": "安装费用",
+      "file": "receipt-text.svg",
+      "sha256": "fc5ff41ac671b7bfdb8b0eff7e7a89613b208ee50c8d4bb81c2d688547cb3af6"
+    },
+    "plus": {
+      "label": "权益组合",
+      "file": "plus.svg",
+      "sha256": "85f5adb8ddb7ca279d8ce13f46b7a996ab657e6202a84f3e084f8f38362774b0"
+    }
+  },
+  "semanticMap": {
+    "营销成果": "trophy",
+    "重点做法": "target",
+    "经典案例": "star",
+    "营销总结": "clipboard-list",
+    "用户信息": "user-round",
+    "用户痛点": "frown",
+    "核心话术": "message-circle-more",
+    "副卡": "card-sim",
+    "流量": "smartphone",
+    "流量与通话": "phone-call",
+    "宽带提速": "gauge",
+    "设备升级": "router",
+    "无线网络": "wifi",
+    "家庭": "house",
+    "组网": "network",
+    "积分计算": "calculator",
+    "渠道系数": "chart-pie",
+    "调节系数": "sliders-horizontal",
+    "赠送权益": "gift",
+    "勾选": "check",
+    "已完成": "circle-check",
+    "目标客群": "users-round",
+    "服务支持": "headset",
+    "活动安排": "calendar-check",
+    "服务保障": "shield-check",
+    "网点": "building-2",
+    "向左": "chevrons-left",
+    "向右": "chevrons-right",
+    "安装费用": "receipt-text",
+    "权益组合": "plus"
+  }
+}

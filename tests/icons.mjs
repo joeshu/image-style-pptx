@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import { loadIconAsset } from '../scripts/icon_assets.mjs';
+import { validateSpec } from '../scripts/render_from_spec.mjs';
+
+const e={type:'icon',name:'sim',icon:'card-sim',group:'benefits',x:10,y:10,w:40,h:40};
+const spec={width:200,height:120,slides:[{elements:[e]}]};
+assert.doesNotThrow(()=>validateSpec(spec));
+const asset=await loadIconAsset('card-sim','#FFFFFF');
+assert.match(asset.svg,/stroke="#FFFFFF"/);
+assert.match(asset.svg,/viewBox="0 0 24 24"/);
+assert.match(asset.svg,/stroke-width="2"/);
+await assert.rejects(()=>loadIconAsset('../../file'),/Unknown/);
+await assert.rejects(()=>loadIconAsset('missing-icon'),/Unknown/);
+await assert.rejects(()=>loadIconAsset('card-sim','red'),/#RRGGBB/);
+assert.throws(()=>validateSpec({...spec,slides:[{elements:[{...e,w:48}]}]}),/square/);
+assert.throws(()=>validateSpec({...spec,slides:[{elements:[{...e,strokeWidth:3}]}]}),/do not accept/);
+assert.throws(()=>validateSpec({...spec,slides:[{elements:[e,{...e,name:'router',icon:'router',x:70,w:32,h:32}]}]}),/Inconsistent/);
+assert.throws(()=>validateSpec({...spec,slides:[{elements:[e,{...e,name:'router',icon:'router',x:70,color:'#FFFFFF'}]}]}),/Inconsistent/);
+assert.doesNotThrow(()=>validateSpec({...spec,slides:[{elements:[e,{...e,name:'header',icon:'target',group:'headers',x:70,w:24,h:24}]}]}));
+console.log('Unified vector icon regressions passed.');
