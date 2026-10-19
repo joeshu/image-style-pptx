@@ -1,0 +1,1351 @@
+{
+  "width": 1280,
+  "height": 626,
+  "fontFamily": "Noto Sans CJK SC",
+  "slides": [
+    {
+      "background": "#FFF0D3",
+      "notes": "内容来源：用户在本会话提供的2026年维系积分规则参考图片。图标：Lucide SVG（https://lucide.dev，ISC许可证随技能包提供）。",
+      "elements": [
+        {
+          "type": "shape",
+          "name": "header-background",
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 88,
+          "fill": "linear(0deg, #A50000 0%, #4B0500 70%, #510700 100%)",
+          "geometry": "rect"
+        },
+        {
+          "type": "shape",
+          "name": "main-surface",
+          "x": 14,
+          "y": 64,
+          "w": 1252,
+          "h": 553,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#FFFFFF",
+          "strokeWidth": 3,
+          "radius": 17
+        },
+        {
+          "type": "shape",
+          "name": "thin-outer-gold-frame",
+          "x": 15,
+          "y": 65,
+          "w": 1250,
+          "h": 552,
+          "fill": "none",
+          "geometry": "rect",
+          "stroke": "#F9E3BA",
+          "strokeWidth": 0.8,
+          "radius": 16
+        },
+        {
+          "type": "text",
+          "name": "page-title",
+          "x": 124,
+          "y": 9,
+          "w": 933,
+          "h": 49,
+          "fontSize": 35.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "2026年维系积分—公众二三季度重点维系工作积分规则"
+        },
+        {
+          "type": "shape",
+          "name": "top-label-bg",
+          "x": 1074,
+          "y": 16,
+          "w": 195,
+          "h": 39,
+          "fill": "linear(90deg, #FFE5AD 0%, #FFF8E7 100%)",
+          "geometry": "rect",
+          "stroke": "#FFEFD1",
+          "strokeWidth": 0.8,
+          "radius": 21
+        },
+        {
+          "type": "text",
+          "name": "top-label",
+          "x": 1083,
+          "y": 18,
+          "w": 177,
+          "h": 33,
+          "fontSize": 20,
+          "color": "#7E1D0C",
+          "bold": true,
+          "align": "center",
+          "text": "营业员积分明白卡"
+        },
+        {
+          "type": "shape",
+          "name": "rules-frame",
+          "x": 20,
+          "y": 69,
+          "w": 613,
+          "h": 304,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 12
+        },
+        {
+          "type": "shape",
+          "name": "rules-header-top",
+          "x": 20.4,
+          "y": 69.4,
+          "w": 612.2,
+          "h": 38,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "rules-header-bottom",
+          "x": 20.4,
+          "y": 87,
+          "w": 612.2,
+          "h": 20,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "text",
+          "name": "rules-title",
+          "x": 88,
+          "y": 71,
+          "w": 538,
+          "h": 33,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "主推产品、具体场景、积分标准"
+        },
+        {
+          "type": "shape",
+          "name": "rules-icon-badge",
+          "x": 42,
+          "y": 75,
+          "w": 30,
+          "h": 29,
+          "fill": "#FFFFFF",
+          "geometry": "rect",
+          "radius": 15
+        },
+        {
+          "type": "image",
+          "name": "icon-clipboard-list-11",
+          "x": 47,
+          "y": 78,
+          "w": 20,
+          "h": 23,
+          "path": "../assets/clipboard-list.svg",
+          "alt": "Lucide clipboard-list 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "shape",
+          "name": "rule-01-number-badge",
+          "x": 41,
+          "y": 117,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-01-number",
+          "x": 42,
+          "y": 114,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "1"
+        },
+        {
+          "type": "text",
+          "name": "rule-01-text",
+          "x": 88,
+          "y": 111,
+          "w": 536,
+          "h": 19,
+          "fontSize": 13.2,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "依转换查办理智家畅越：换套餐收，每1元新老套餐收入差值可得5.7分；"
+        },
+        {
+          "type": "text",
+          "name": "rule-01-scene",
+          "x": 88,
+          "y": 130,
+          "w": 536,
+          "h": 20,
+          "fontSize": 13.5,
+          "color": "#E01512",
+          "bold": true,
+          "align": "left",
+          "text": "场景：办理金融分期合约，带FTTR及手机双终端"
+        },
+        {
+          "type": "shape",
+          "name": "rule-02-number-badge",
+          "x": 41,
+          "y": 161,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-02-number",
+          "x": 42,
+          "y": 158,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "2"
+        },
+        {
+          "type": "text",
+          "name": "rule-02-text",
+          "x": 88,
+          "y": 155,
+          "w": 536,
+          "h": 19,
+          "fontSize": 13.2,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "依转换查办理智家畅越：换套餐收，每1元新老套餐收入差值可得5.1分；"
+        },
+        {
+          "type": "text",
+          "name": "rule-02-scene",
+          "x": 88,
+          "y": 174,
+          "w": 536,
+          "h": 20,
+          "fontSize": 13.5,
+          "color": "#E01512",
+          "bold": true,
+          "align": "left",
+          "text": "场景：办理金融分期合约，带手机终端"
+        },
+        {
+          "type": "shape",
+          "name": "rule-03-number-badge",
+          "x": 41,
+          "y": 206,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-03-number",
+          "x": 42,
+          "y": 203,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "3"
+        },
+        {
+          "type": "text",
+          "name": "rule-03-text",
+          "x": 88,
+          "y": 200,
+          "w": 536,
+          "h": 19,
+          "fontSize": 13.2,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "依转换查办理智家畅越：换套餐收，每1元新老套餐收入差值可得3.6分；"
+        },
+        {
+          "type": "text",
+          "name": "rule-03-scene",
+          "x": 88,
+          "y": 219,
+          "w": 536,
+          "h": 20,
+          "fontSize": 13.5,
+          "color": "#E01512",
+          "bold": true,
+          "align": "left",
+          "text": "场景：仅带FTTR终端"
+        },
+        {
+          "type": "shape",
+          "name": "rule-04-highlight",
+          "x": 25,
+          "y": 246,
+          "w": 604,
+          "h": 46,
+          "fill": "#FCE8C2",
+          "geometry": "rect",
+          "radius": 8
+        },
+        {
+          "type": "shape",
+          "name": "rule-04-number-badge",
+          "x": 41,
+          "y": 254,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-04-number",
+          "x": 42,
+          "y": 251,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "4"
+        },
+        {
+          "type": "text",
+          "name": "rule-04-text",
+          "x": 88,
+          "y": 248,
+          "w": 536,
+          "h": 19,
+          "fontSize": 13.2,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "依转换查办理智家畅越：换套餐收，每1元新老套餐收入差值可得3分；"
+        },
+        {
+          "type": "text",
+          "name": "rule-04-scene",
+          "x": 88,
+          "y": 267,
+          "w": 536,
+          "h": 20,
+          "fontSize": 12.9,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "runs": [
+            {
+              "text": "场景：非以上场景。",
+              "color": "#E01512",
+              "bold": true
+            },
+            {
+              "text": "依转换查199及以上智家畅越，保底积分标准30分。"
+            }
+          ]
+        },
+        {
+          "type": "shape",
+          "name": "rule-05-number-badge",
+          "x": 41,
+          "y": 298,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-05-number",
+          "x": 42,
+          "y": 295,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "5"
+        },
+        {
+          "type": "text",
+          "name": "rule-05-text",
+          "x": 88,
+          "y": 298,
+          "w": 536,
+          "h": 26,
+          "fontSize": 14.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "老用户加副卡：20分/张"
+        },
+        {
+          "type": "shape",
+          "name": "rule-06-divider",
+          "x": 27,
+          "y": 329,
+          "w": 599,
+          "h": 0.7,
+          "fill": "#F2E7D7",
+          "geometry": "rect"
+        },
+        {
+          "type": "shape",
+          "name": "rule-06-number-badge",
+          "x": 41,
+          "y": 337,
+          "w": 30,
+          "h": 28,
+          "fill": "linear(0deg, #C40000 0%, #8C0000 100%)",
+          "geometry": "ellipse"
+        },
+        {
+          "type": "text",
+          "name": "rule-06-number",
+          "x": 42,
+          "y": 334,
+          "w": 28,
+          "h": 31,
+          "fontSize": 21,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "6"
+        },
+        {
+          "type": "text",
+          "name": "rule-06-text",
+          "x": 88,
+          "y": 337,
+          "w": 536,
+          "h": 26,
+          "fontSize": 14.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "固话维系：办理指定维系产品得10分/户"
+        },
+        {
+          "type": "shape",
+          "name": "channel-frame",
+          "x": 646,
+          "y": 69,
+          "w": 296,
+          "h": 104,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 12
+        },
+        {
+          "type": "shape",
+          "name": "channel-header-top",
+          "x": 646.4,
+          "y": 69.4,
+          "w": 295.2,
+          "h": 38,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "channel-header-bottom",
+          "x": 646.4,
+          "y": 87,
+          "w": 295.2,
+          "h": 20,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "image",
+          "name": "icon-chart-pie-39",
+          "x": 716,
+          "y": 77,
+          "w": 24,
+          "h": 24,
+          "path": "../assets/chart-pie.svg",
+          "alt": "Lucide chart-pie 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "channel-title",
+          "x": 755,
+          "y": 71,
+          "w": 173,
+          "h": 33,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "渠道系数"
+        },
+        {
+          "type": "text",
+          "name": "channel-direct",
+          "x": 710,
+          "y": 113,
+          "w": 222,
+          "h": 25,
+          "fontSize": 14.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "自控渠道办理系数为1，"
+        },
+        {
+          "type": "text",
+          "name": "channel-social",
+          "x": 710,
+          "y": 139,
+          "w": 222,
+          "h": 25,
+          "fontSize": 14.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "社会渠道办理系数为0.3"
+        },
+        {
+          "type": "shape",
+          "name": "region-frame",
+          "x": 958,
+          "y": 69,
+          "w": 300,
+          "h": 104,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 12
+        },
+        {
+          "type": "shape",
+          "name": "region-header-top",
+          "x": 958.4,
+          "y": 69.4,
+          "w": 299.2,
+          "h": 38,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "region-header-bottom",
+          "x": 958.4,
+          "y": 87,
+          "w": 299.2,
+          "h": 20,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "image",
+          "name": "icon-sliders-horizontal-46",
+          "x": 1028,
+          "y": 77,
+          "w": 24,
+          "h": 24,
+          "path": "../assets/sliders-horizontal.svg",
+          "alt": "Lucide sliders-horizontal 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "region-title",
+          "x": 1066,
+          "y": 71,
+          "w": 185,
+          "h": 33,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "地市调节系数"
+        },
+        {
+          "type": "text",
+          "name": "region-fttr",
+          "x": 1025,
+          "y": 112,
+          "w": 223,
+          "h": 27,
+          "fontSize": 17,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "center",
+          "runs": [
+            {
+              "text": "FTTR畅越 "
+            },
+            {
+              "text": "1.95",
+              "color": "#E01512",
+              "bold": true,
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "region-non-fttr",
+          "x": 1016,
+          "y": 138,
+          "w": 232,
+          "h": 27,
+          "fontSize": 17,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "center",
+          "runs": [
+            {
+              "text": "非FTTR畅越 "
+            },
+            {
+              "text": "1.5",
+              "color": "#E01512",
+              "bold": true,
+              "fontSize": 18
+            }
+          ]
+        },
+        {
+          "type": "shape",
+          "name": "formula-frame",
+          "x": 646,
+          "y": 182,
+          "w": 612,
+          "h": 191,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 12
+        },
+        {
+          "type": "shape",
+          "name": "formula-header-top",
+          "x": 646.4,
+          "y": 182.4,
+          "w": 611.2,
+          "h": 35,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "formula-header-bottom",
+          "x": 646.4,
+          "y": 200,
+          "w": 611.2,
+          "h": 17,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "text",
+          "name": "formula-title",
+          "x": 715,
+          "y": 184,
+          "w": 537,
+          "h": 33,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "简要计算公式"
+        },
+        {
+          "type": "shape",
+          "name": "formula-icon-badge",
+          "x": 674,
+          "y": 188,
+          "w": 27,
+          "h": 26,
+          "fill": "#FFFFFF",
+          "geometry": "rect",
+          "radius": 14
+        },
+        {
+          "type": "image",
+          "name": "icon-calculator-55",
+          "x": 678,
+          "y": 191,
+          "w": 19,
+          "h": 20,
+          "path": "../assets/calculator.svg",
+          "alt": "Lucide calculator 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-01",
+          "x": 663,
+          "y": 219.0,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "1. 主推产品积分=积分标准 × 渠道系数 × 地市调节系数"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-02",
+          "x": 663,
+          "y": 237.2,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "2. 主推产品积分规则与通用规则互斥，不重复计算积分。"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-03",
+          "x": 663,
+          "y": 255.4,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "   如果有规则冲突，主推产品规则优先执行。"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-04",
+          "x": 663,
+          "y": 273.6,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "3. FTTR调测费按通用规则单独计算，手机毛利积分按销售积分规则单独计算；"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-05",
+          "x": 663,
+          "y": 291.8,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "4. 不依转换查办理智家畅越的号卡，不计算主推积分及通用规则积分。"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-06",
+          "x": 663,
+          "y": 310.0,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "5. 依转换查办理智家畅越：积分在新套餐办理账期月计算积分。"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-07",
+          "x": 663,
+          "y": 328.2,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "6. 新老套餐收入差值=智家畅越套餐值−电子券−客户定位ARPU值。"
+        },
+        {
+          "type": "text",
+          "name": "formula-line-08",
+          "x": 663,
+          "y": 346.4,
+          "w": 581,
+          "h": 19,
+          "fontSize": 13.5,
+          "color": "#1E1A16",
+          "bold": true,
+          "align": "left",
+          "text": "7. 积分归属：工单发展人所有。"
+        },
+        {
+          "type": "shape",
+          "name": "examples-label",
+          "x": 548,
+          "y": 377,
+          "w": 183,
+          "h": 22,
+          "fill": "linear(0deg, #C90000 0%, #920000 100%)",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "text",
+          "name": "examples-title",
+          "x": 556,
+          "y": 375,
+          "w": 167,
+          "h": 26,
+          "fontSize": 18.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "center",
+          "text": "积 分 示 例"
+        },
+        {
+          "type": "shape",
+          "name": "example-tab-left",
+          "x": 509,
+          "y": 379,
+          "w": 40,
+          "h": 16,
+          "fill": "#B70000",
+          "geometry": "roundRect",
+          "radius": 8
+        },
+        {
+          "type": "image",
+          "name": "icon-chevrons-left-66",
+          "x": 507,
+          "y": 375,
+          "w": 43,
+          "h": 24,
+          "path": "../assets/chevrons-left.svg",
+          "alt": "Lucide chevrons-left 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "shape",
+          "name": "example-tab-right",
+          "x": 731,
+          "y": 379,
+          "w": 40,
+          "h": 16,
+          "fill": "#B70000",
+          "geometry": "roundRect",
+          "radius": 8
+        },
+        {
+          "type": "image",
+          "name": "icon-chevrons-right-67",
+          "x": 730,
+          "y": 375,
+          "w": 43,
+          "h": 24,
+          "path": "../assets/chevrons-right.svg",
+          "alt": "Lucide chevrons-right 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "shape",
+          "name": "normal-example-frame",
+          "x": 24,
+          "y": 400,
+          "w": 389,
+          "h": 147,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "normal-example-header-top",
+          "x": 24.4,
+          "y": 400.4,
+          "w": 388.2,
+          "h": 33,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "normal-example-header-bottom",
+          "x": 24.4,
+          "y": 417,
+          "w": 388.2,
+          "h": 16.5,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "image",
+          "name": "icon-house-73",
+          "x": 141.5,
+          "y": 405,
+          "w": 25,
+          "h": 25,
+          "path": "../assets/house.svg",
+          "alt": "Lucide house 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "normal-example-title",
+          "x": 178.5,
+          "y": 401,
+          "w": 230.5,
+          "h": 32,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "普通智家畅越"
+        },
+        {
+          "type": "table",
+          "name": "normal-example-table",
+          "x": 25,
+          "y": 434,
+          "w": 387,
+          "h": 111,
+          "values": [
+            [
+              {
+                "text": "提值20元",
+                "bold": true
+              },
+              "20×3=60分"
+            ],
+            [
+              {
+                "text": "自控渠道办理系数",
+                "bold": true
+              },
+              "1"
+            ],
+            [
+              {
+                "text": "地市调节系数",
+                "bold": true
+              },
+              {
+                "text": "1.5",
+                "color": "#E01512",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "最终积分",
+                "bold": true
+              },
+              {
+                "runs": [
+                  {
+                    "text": "20×3×1.5 = ",
+                    "fontSize": 13.2
+                  },
+                  {
+                    "text": "90分",
+                    "color": "#D51612",
+                    "bold": true,
+                    "fontSize": 24
+                  }
+                ]
+              }
+            ]
+          ],
+          "columnWidths": [
+            174,
+            213
+          ],
+          "rowHeights": [
+            23.5,
+            23.5,
+            23.5,
+            40.5
+          ],
+          "fontSize": 14.2,
+          "color": "#1E1A16",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.6,
+          "rowFills": [
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FCEED7"
+          ],
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "name": "fttr-example-frame",
+          "x": 430,
+          "y": 400,
+          "w": 403,
+          "h": 147,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "fttr-example-header-top",
+          "x": 430.4,
+          "y": 400.4,
+          "w": 402.2,
+          "h": 33,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "fttr-example-header-bottom",
+          "x": 430.4,
+          "y": 417,
+          "w": 402.2,
+          "h": 16.5,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "image",
+          "name": "icon-network-79",
+          "x": 497.8,
+          "y": 405,
+          "w": 25,
+          "h": 25,
+          "path": "../assets/network.svg",
+          "alt": "Lucide network 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "fttr-example-title",
+          "x": 534.8,
+          "y": 401,
+          "w": 294.2,
+          "h": 32,
+          "fontSize": 19.2,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "仅带FTTR终端智家畅越"
+        },
+        {
+          "type": "table",
+          "name": "fttr-example-table",
+          "x": 431,
+          "y": 434,
+          "w": 401,
+          "h": 111,
+          "values": [
+            [
+              {
+                "text": "提值30元",
+                "bold": true
+              },
+              "30×3.6=108分"
+            ],
+            [
+              {
+                "text": "自控渠道办理系数",
+                "bold": true
+              },
+              "1"
+            ],
+            [
+              {
+                "text": "地市调节系数",
+                "bold": true
+              },
+              {
+                "text": "1.95",
+                "color": "#E01512",
+                "bold": true
+              }
+            ],
+            [
+              {
+                "text": "最终积分",
+                "bold": true
+              },
+              {
+                "runs": [
+                  {
+                    "text": "30×3.6×1.95 = ",
+                    "fontSize": 13.2
+                  },
+                  {
+                    "text": "210.6分",
+                    "color": "#D51612",
+                    "bold": true,
+                    "fontSize": 24
+                  }
+                ]
+              }
+            ]
+          ],
+          "columnWidths": [
+            188,
+            213
+          ],
+          "rowHeights": [
+            23.5,
+            23.5,
+            23.5,
+            40.5
+          ],
+          "fontSize": 14.2,
+          "color": "#1E1A16",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.6,
+          "rowFills": [
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FCEED7"
+          ],
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "name": "sim-example-frame",
+          "x": 849,
+          "y": 400,
+          "w": 406,
+          "h": 147,
+          "fill": "#FFFEFC",
+          "geometry": "rect",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.8,
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "sim-example-header-top",
+          "x": 849.4,
+          "y": 400.4,
+          "w": 405.2,
+          "h": 33,
+          "fill": "#B70000",
+          "geometry": "rect",
+          "radius": 11
+        },
+        {
+          "type": "shape",
+          "name": "sim-example-header-bottom",
+          "x": 849.4,
+          "y": 417,
+          "w": 405.2,
+          "h": 16.5,
+          "fill": "#B70000",
+          "geometry": "rect"
+        },
+        {
+          "type": "image",
+          "name": "icon-card-sim-85",
+          "x": 975.0,
+          "y": 405,
+          "w": 25,
+          "h": 25,
+          "path": "../assets/card-sim.svg",
+          "alt": "Lucide card-sim 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "sim-example-title",
+          "x": 1012.0,
+          "y": 401,
+          "w": 239.0,
+          "h": 32,
+          "fontSize": 19.5,
+          "color": "#FFFFFF",
+          "bold": true,
+          "align": "left",
+          "text": "老用户加副卡"
+        },
+        {
+          "type": "table",
+          "name": "sim-example-table",
+          "x": 850,
+          "y": 434,
+          "w": 404,
+          "h": 111,
+          "values": [
+            [
+              {
+                "text": "办理数量",
+                "bold": true
+              },
+              "1张"
+            ],
+            [
+              {
+                "text": "积分标准",
+                "bold": true
+              },
+              "20分/张"
+            ],
+            [
+              {
+                "text": "计算方式",
+                "bold": true
+              },
+              "1×20"
+            ],
+            [
+              {
+                "text": "最终积分",
+                "bold": true
+              },
+              {
+                "runs": [
+                  {
+                    "text": "",
+                    "fontSize": 13.2
+                  },
+                  {
+                    "text": "20分",
+                    "color": "#D51612",
+                    "bold": true,
+                    "fontSize": 24
+                  }
+                ]
+              }
+            ]
+          ],
+          "columnWidths": [
+            158,
+            246
+          ],
+          "rowHeights": [
+            23.5,
+            23.5,
+            23.5,
+            40.5
+          ],
+          "fontSize": 14.2,
+          "color": "#1E1A16",
+          "stroke": "#EEDBC1",
+          "strokeWidth": 0.6,
+          "rowFills": [
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FFFEFC",
+            "#FCEED7"
+          ],
+          "align": "center"
+        },
+        {
+          "type": "shape",
+          "name": "incentive-banner",
+          "x": 20,
+          "y": 560,
+          "w": 1239,
+          "h": 54,
+          "fill": "linear(0deg, #A90000 0%, #D00000 38%, #AD0000 100%)",
+          "geometry": "rect",
+          "stroke": "#FFFFFF",
+          "strokeWidth": 1.2,
+          "radius": 12
+        },
+        {
+          "type": "shape",
+          "name": "incentive-icon-ring",
+          "x": 86,
+          "y": 565,
+          "w": 51,
+          "h": 46,
+          "fill": "none",
+          "geometry": "ellipse",
+          "stroke": "#F8CD61",
+          "strokeWidth": 1.5
+        },
+        {
+          "type": "image",
+          "name": "icon-gift-90",
+          "x": 97,
+          "y": 573,
+          "w": 30,
+          "h": 30,
+          "path": "../assets/gift.svg",
+          "alt": "Lucide gift 图标",
+          "fit": "contain"
+        },
+        {
+          "type": "text",
+          "name": "incentive-text",
+          "x": 165,
+          "y": 570,
+          "w": 1067,
+          "h": 36,
+          "fontSize": 21.8,
+          "color": "#FFF2CE",
+          "bold": true,
+          "align": "left",
+          "runs": [
+            {
+              "text": "个人激励：办理智家畅越同时拉新副卡按"
+            },
+            {
+              "text": "10元/户激励",
+              "color": "#FFE128",
+              "bold": true
+            },
+            {
+              "text": "，端网业不适配升级的按"
+            },
+            {
+              "text": "20元/户激励",
+              "color": "#FFE128",
+              "bold": true
+            },
+            {
+              "text": "。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

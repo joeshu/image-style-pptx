@@ -1,0 +1,4 @@
+interface:
+  display_name: "按图还原 PPTX"
+  short_description: "还原图片中的文字、标题、图标与排版，生成可编辑 PPTX"
+  default_prompt: "使用 $image-style-pptx 按参考图还原为可编辑 PPTX，保留文字、标题、图标、配色、排版和图片比例，并给出预览。"
